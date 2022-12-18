@@ -16,8 +16,8 @@ const Navbar = () => {
 			<img
 				src={
 					open
-						? "../images/assets/icon-close.svg"
-						: "../images/assets/icon-hamburger.svg"
+						? "images/assets/icon-close.svg"
+						: "images/assets/icon-hamburger.svg"
 				}
 				className="md:hidden  fixed right-5 cursor-pointer hover:opacity-40 hover:text-red-600 z-20 top-10"
 				onClick={() => setopen(!open)}

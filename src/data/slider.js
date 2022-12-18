@@ -1,7 +1,7 @@
 export const dataImages = [
 	{
 		id: 6,
-		image: "./images/doces/chantillymorango.jpg",
+		image: "images/doces/chantillymorango.jpg",
 		title: "Hmmm",
 		description: "Que delicia",
 	},
@@ -13,26 +13,26 @@ export const dataImages = [
 	},
 	{
 		id: 2,
-		image: "../images/doces/canudos.jpg",
+		image: "images/doces/canudos.jpg",
 		title: "Bolo de chocolate com cobertura de canudo",
 		description: "Linda cobertura com canudo",
 	},
 
 	{
 		id: 8,
-		image: "../images/doces/parabensz.jpg",
+		image: "images/doces/parabensz.jpg",
 		title: "Hmmm",
 		description: "Que delicia",
 	},
 	{
 		id: 9,
-		image: "../images/doces/doiscupcakerosa.jpg",
+		image: "images/doces/doiscupcakerosa.jpg",
 		title: "Hmmm",
 		description: "Que delicia",
 	},
 	{
 		id: 10,
-		image: "../images/doces/brownie.jpg",
+		image: "images/doces/brownie.jpg",
 		title: "Hmmm",
 		description: "hmmm",
 	},
@@ -51,13 +51,13 @@ export const dataImages = [
 
 	{
 		id: 7,
-		image: "./images/doces/cupcakerosa.jpg",
+		image: "images/doces/cupcakerosa.jpg",
 		title: "Hmmm",
 		description: "Que delicia",
 	},
 	{
 		id: 3,
-		image: "./images/doces/cerejinhas.jpg",
+		image: "images/doces/cerejinhas.jpg",
 		title: "Bolo de chocolate ",
 		description:
 			"Gostossisimo bolo de chocolate com calda de chocolate e cerejas",

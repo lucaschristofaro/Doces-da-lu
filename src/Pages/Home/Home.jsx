@@ -7,7 +7,7 @@ const Home = () => {
 	return (
 		<div className="border-t-4 border-rose-400 ">
 			<div data-aos="flip-up" data-aos-duration="1500">
-				<section className="relative bg-[url(../../../images/doces/banner1.jpg)] bg-cover bg-center bg-no-repeat">
+				<section className="relative bg-[url(images/doces/banner1.jpg)] bg-cover bg-center bg-no-repeat">
 					<div className="absolute inset-0 bg-white/40 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/30 sm:to-white/25"></div>
 
 					<div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">

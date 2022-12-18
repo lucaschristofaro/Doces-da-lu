@@ -14,7 +14,7 @@ const item = [
 
 	{
 		id: 3,
-		image: "../images/doces/doiscupcakerosa.jpg",
+		image: "images/doces/doiscupcakerosa.jpg",
 		category: "Cupcakes",
 		title: "Cupcake Delicioso",
 	},
