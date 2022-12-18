@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cardSvg {
+	@apply flex-shrink-0 rounded-lg bg-red-50 outline-yellow-700 cursor-pointer  hover:outline-double  p-4;
+}
