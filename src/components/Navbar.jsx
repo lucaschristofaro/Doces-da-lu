@@ -1,6 +1,8 @@
 import { useState } from "react";
 
 import { GiCupcake } from "react-icons/gi";
+import hamburguer from "../assets/assets/icon-hamburger.svg";
+import close from "../assets/assets/icon-close.svg";
 
 const Navbar = () => {
 	let [open, setopen] = useState(false);
@@ -14,11 +16,7 @@ const Navbar = () => {
 	return (
 		<nav className=" bg-red-50 bg-opacity-90	sticky top-0 z-30 flex items-center justify-between pt-4">
 			<img
-				src={
-					open
-						? "images/assets/icon-close.svg"
-						: "images/assets/icon-hamburger.svg"
-				}
+				src={open ? `${close}` : `${hamburguer}`}
 				className="md:hidden  fixed right-5 cursor-pointer hover:opacity-40 hover:text-red-600 z-20 top-10"
 				onClick={() => setopen(!open)}
 			/>

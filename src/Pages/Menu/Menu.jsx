@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import felicidade from "../../assets/svg/felicidade.svg";
 
 import Categories from "./Categories";
 import items from "../../data/MenuData";
@@ -36,7 +37,7 @@ const Menu = () => {
 							Menu
 						</span>
 						<img
-							src="images/svg/donut.svg"
+							src={felicidade}
 							className="h-8 w-8 inline rounded-sm  mt-4 ml-3 max-sm:ml-2 "
 							stroke="currentColor"
 						/>

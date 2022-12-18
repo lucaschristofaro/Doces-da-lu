@@ -1,70 +1,82 @@
+import slide1 from "../assets/doces/chantillymorango.jpg";
+import slide3 from "../assets/doces/chantilycereja.jpg";
+import slide4 from "../assets/doces/cupcakerosa.jpg";
+import slide5 from "../assets/doces/canudos.jpg";
+import slide6 from "../assets/doces/parabensz.jpg";
+import slide7 from "../assets/doces/doiscupcakerosa.jpg";
+import slide8 from "../assets/doces/brownie.jpg";
+import slide9 from "../assets/doces/chocolatecereja.jpg";
+import slide10 from "../assets/doces/variosbrancos.jpg";
+import slide11 from "../assets/doces/cerejinhas.jpg";
+import slide12 from "../assets/doces/pudim.jpg";
+
 export const dataImages = [
 	{
 		id: 6,
-		image: "images/doces/chantillymorango.jpg",
+		image: `${slide4}`,
 		title: "Hmmm",
 		description: "Que delicia",
 	},
 	{
 		id: 1,
-		image: "images/doces/chantilycereja.jpg",
+		image: `${slide5}`,
 		title: "Bolo de aniversário",
 		description: "Bolo com chantilly e morangos",
 	},
 	{
 		id: 2,
-		image: "images/doces/canudos.jpg",
+		image: `${slide3}`,
 		title: "Bolo de chocolate com cobertura de canudo",
 		description: "Linda cobertura com canudo",
 	},
 
 	{
 		id: 8,
-		image: "images/doces/parabensz.jpg",
+		image: `${slide1}`,
 		title: "Hmmm",
 		description: "Que delicia",
 	},
 	{
 		id: 9,
-		image: "images/doces/doiscupcakerosa.jpg",
+		image: `${slide6}`,
 		title: "Hmmm",
 		description: "Que delicia",
 	},
 	{
 		id: 10,
-		image: "images/doces/brownie.jpg",
+		image: `${slide7}`,
 		title: "Hmmm",
 		description: "hmmm",
 	},
 	{
 		id: 4,
-		image: "images/doces/chocolatecereja.jpg",
+		image: `${slide8}`,
 		title: "Não sei",
 		description: "Pense em alguma coisa",
 	},
 	{
 		id: 5,
-		image: "images/doces/variosbrancos.jpg",
+		image: `${slide9}`,
 		title: "Hmmm",
 		description: "Que delicia",
 	},
 
 	{
 		id: 7,
-		image: "images/doces/cupcakerosa.jpg",
+		image: `${slide10}`,
 		title: "Hmmm",
 		description: "Que delicia",
 	},
 	{
 		id: 3,
-		image: "images/doces/cerejinhas.jpg",
+		image: `${slide11}`,
 		title: "Bolo de chocolate ",
 		description:
 			"Gostossisimo bolo de chocolate com calda de chocolate e cerejas",
 	},
 	{
 		id: 33,
-		image: "images/doces/rosa.jpg",
+		image: `${slide12}`,
 		title: "Bolo de chocolate ",
 		description:
 			"Gostossisimo bolo de chocolate com calda de chocolate e cerejas",

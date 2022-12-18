@@ -1,4 +1,6 @@
 import React from "react";
+import cupcake from "../../assets/svg/cake.svg";
+import donut from "../../assets/svg/donut.svg";
 
 const Services = () => {
 	return (
@@ -12,22 +14,22 @@ const Services = () => {
 					>
 						<div className="max-w-xl">
 							<div>
-								<h2 className=" text-3xl justify-center  flex items-center font-bold sm:text-4xl">
+								<h2 className=" text-3xl justify-center ml-6 flex items-center font-bold sm:text-4xl">
 									<img
-										src="images/svg/cake.svg"
+										src={cupcake}
 										className="h-10 w-10 inline"
 										stroke="currentColor"
 									></img>
-									<a className="ml-2">Conheça nossos Serviços</a>
+									<a className="ml-8	 ">Conheça nossos Serviços</a>
 									<img
-										src="images/svg/donut.svg"
-										className="h-10  w-10 rounded-sm ml-2"
+										src={donut}
+										className="h-10  w-10 max-sm:mr-4 rounded-sm ml-4"
 										stroke="currentColor"
 									/>
 								</h2>
 							</div>
 						</div>
-
+						{/* Cards */}
 						<div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-2">
 							<div className="flex items-start">
 								<span className="cardSvg">
@@ -50,11 +52,7 @@ const Services = () => {
 
 							<div className="flex items-start">
 								<span className="cardSvg">
-									<img
-										src="https://www.svgrepo.com/show/65988/cupcake.svg"
-										className="h-5 w-5"
-										stroke="currentColor"
-									/>
+									<img src={donut} className="h-5 w-5" stroke="currentColor" />
 								</span>
 
 								<div className="ml-4">
@@ -70,6 +68,7 @@ const Services = () => {
 								<span className="cardSvg">
 									<img
 										src="https://www.svgrepo.com/show/284134/donut.svg"
+										color="currentColor"
 										alt=""
 										className="h-5 w-5"
 									/>
